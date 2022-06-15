@@ -16,7 +16,7 @@ exports.handler = async (event) => {
   let info = await transport
     .sendMail({
       from: `${data.FirstName} <${data.Email}>`,
-      to: "praveen@antstack.io",
+      to: "praveen@antstack.io",                    //receiver emailId
       subject: `Enquiry from ${data.FirstName} ${data.LastName}!! `,
       html: `
       <p> Hello VP creators , you have received an enquiry from ${data.FirstName} ${data.LastName} saying <strong>"${data.Message}"</strong></p>
