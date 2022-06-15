@@ -9,7 +9,7 @@ exports.handler = async (event) => {
     port: 587,
     secure: false,
     auth: {
-      user: 'vpcreators1@gmail.com',
+      user: 'vpcreators1@gmail.com', //sender emailId
       pass: 'cqaq evyr fatt pmfh',
     },
   });
